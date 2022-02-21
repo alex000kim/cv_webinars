@@ -4,17 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = "*"
-pillow = "*"
 matplotlib = "*"
+torch = "*"
 torchvision = "*"
-sklearn = "*"
-tqdm = "*"
 pandas = "*"
+tqdm = "*"
+scikit-learn = "*"
+ipywidgets = "*"
 
 [dev-packages]
 ipykernel = "*"
-ipywidgets = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
